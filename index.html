@@ -11,56 +11,61 @@
     <title>DF Cinemas</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">DF Cinemas</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<body class="container">
+    <nav class="navbar navbar-expand-lg w-100 d-flex">
+        <a class="col-1 me-2 navbar-brand" href="./index.html">
+            <img class="img-fluid pb-0" src="./images/logo.svg" alt="DF Cinemas Logo" />
+        </a>
+        <div class="navbar-inner w-100">
+
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link active text-yellow" aria-current="page" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./whatson.html">What's On</a>
+                        <a class="nav-link text-yellow" href="./whatson.html">What's On</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./signup.html">Sign Up</a>
+                        <a class="nav-link text-yellow" href="./signup.html">Sign Up</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/cinema1.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/cinema1.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/cinema1.jpeg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <main>
+        <img src="./images/cinema1.jpeg" class="d-block w-100 home-banner-img mb-2" />
 
-            <div></div>
-        </div>
         <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
+                distinctio
+                iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo consequuntur soluta.
+                Perspiciatis deserunt neque laudantium maiores perferendis non vero quam? Quidem voluptatibus illo
+                fugit, temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
+                incidunt vero ipsam libero, pariatur architecto, quis recusandae esse. Corporis sit quibusdam doloribus
+                culpa? Quibusdam, eos natus. Cumque totam adipisci dolore, quis quam eius est! Obcaecati quidem aperiam
+                ab modi necessitatibus possimus, libero corporis illum nostrum inventore ex voluptatibus sunt nesciunt
+                labore voluptatem nisi temporibus sed culpa?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
+                distinctio iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo
+                consequuntur soluta.
+                Perspiciatis deserunt neque laudantium maiores perferendis non vero quam? Quidem voluptatibus illo
+                fugit, temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
+                distinctio iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo
+                consequuntur soluta.
+                Perspiciatis deserunt neque laudantium maiores perferendis non vero quam? Quidem voluptatibus illo
+                fugit, temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
+            </p>
+
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
                 distinctio
                 iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo consequuntur soluta.
@@ -73,42 +78,52 @@
 
         </div>
 
-        <div class="row">
-            <div class="col-sm">
-                <img src="./images/cinema1.jpeg" alt="i1" style="max-width:100%">
-            </div>
-            <div class="col-sm">
-                <img src="./images/cinema1.jpeg" alt="i2" style="max-width:100%">
-            </div>
-            <div class="col-sm">
-                <img src="./images/cinema1.jpeg" alt="i3" style="max-width:100%">
-            </div>
+        <div class="d-flex flex-column gap-3 flex-md-row">
+            <img src="./images/movie01.jpeg" class="card-img-top home-img" alt="..." width="250" height="300">
+            <img src="./images/movie02.jpeg" class="card-img-top home-img" alt="..." width="250" height="300">
+            <img src="./images/movie03.jpeg" class="card-img-top home-img" alt="..." width="250" height="300">
         </div>
 
         <div>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
                 distinctio
-                iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo consequuntur
-                soluta.
+                iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo consequuntur soluta.
                 Perspiciatis deserunt neque laudantium maiores perferendis non vero quam? Quidem voluptatibus illo
-                fugit,
-                temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
-                incidunt
-                vero
-                ipsam libero, pariatur architecto, quis recusandae esse. Corporis sit quibusdam doloribus culpa?
-                Quibusdam,
-                eos
-                natus. Cumque totam adipisci dolore, quis quam eius est! Obcaecati quidem aperiam ab modi
-                necessitatibus
-                possimus, libero corporis illum nostrum inventore ex voluptatibus sunt nesciunt labore voluptatem
-                nisi
-                temporibus sed culpa?</p>
+                fugit, temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
+                incidunt vero ipsam libero, pariatur architecto, quis recusandae esse. Corporis sit quibusdam doloribus
+                culpa? Quibusdam, eos natus. Cumque totam adipisci dolore, quis quam eius est! Obcaecati quidem aperiam
+                ab modi necessitatibus possimus, libero corporis illum nostrum inventore ex voluptatibus sunt nesciunt
+                labore voluptatem nisi temporibus sed culpa?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
+                distinctio iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo
+                consequuntur soluta.
+                Perspiciatis deserunt neque laudantium maiores perferendis non vero quam? Quidem voluptatibus illo
+                fugit, temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
+                distinctio
+                iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo consequuntur soluta.
+                Perspiciatis deserunt neque laudantium maiores perferendis non vero quam? Quidem voluptatibus illo
+                fugit, temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos, nobis, reprehenderit error
+                distinctio
+                iusto odio quaerat quidem iure sit ea nostrum aliquid officiis veritatis, vel illo consequuntur soluta.
+                Perspiciatis deserunt neque laudantium maiores perferendis non vero quam? Quidem voluptatibus illo
+                fugit, temporibus tempora sequi exercitationem consequuntur enim sint voluptate hic dolorem cupiditate
+                incidunt vero ipsam libero, pariatur architecto, quis recusandae esse. Corporis sit quibusdam doloribus
+                culpa? Quibusdam, eos natus. Cumque totam adipisci dolore, quis quam eius est! Obcaecati quidem aperiam
+                ab modi necessitatibus possimus, libero corporis illum nostrum inventore ex voluptatibus sunt nesciunt
+                labore voluptatem nisi temporibus sed culpa?</p>
         </div>
 
     </main>
-    <footer class="navbar w-100 bg-dark d-flex justify-content-center align-items-center">
-        <p class="text-white mt-2 mb-2">&copy; DF Cinemas 2021-2022</p>
+    <footer class="navbar-inner w-100 d-flex justify-content-center align-items-center">
+        <p class="text-yellow mt-2 mb-2">&copy; DF Cinemas 2021-2022</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
