@@ -1,41 +1,61 @@
 body {
-    background-color: purple;
-    color: yellow;
-    font-family: sans-serif;
+  background-color: purple;
+  color: yellow;
+  font-family: sans-serif;
+}
+
+.navbar {
+  flex-wrap: nowrap;
 }
 
 .navbar-inner {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background-color: rgb(73, 23, 73);
+  width: 100%;
+  background-color: yellow;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .nav-link {
-    color: yellow;
-   padding-bottom: 5px;
+  font-weight: bold;
+  color: purple;
+  padding-bottom: 5px;
 }
 
-.carousel-item{
-    margin-top: 1%;
-    height: 300px;
-} 
-.carousel-item img{
-    height: 300px;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.nav-link:hover {
+  color: #370d32;
+}
+
+.carousel-item {
+  margin-top: 1%;
+  height: 300px;
+}
+.carousel-item img {
+  height: 300px;
 }
 
 .home-banner-img {
-    aspect-ratio: 21/9;
+  aspect-ratio: 21/9;
 }
 
 .home-img {
-    object-fit: cover;
-    aspect-ratio: 1;
+  object-fit: cover;
+  aspect-ratio: 1;
 }
 
 img {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 p {
-    padding-top: 5px;
+  padding-top: 5px;
 }
