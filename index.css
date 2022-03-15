@@ -62,6 +62,8 @@ img {
 
 p {
   padding-top: 5px;
+  font-size: 14pt;
+  word-break: break-all;
 }
 
 .containerIMG {
