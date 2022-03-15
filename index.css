@@ -27,6 +27,10 @@ body {
   align-items: start;
 }
 
+.footer p {
+  margin: auto auto;
+}
+
 .text-purple {
   color: purple;
 }
